@@ -1,0 +1,40 @@
+name: エンジニア サンプル
+kana: サンプル エンジニア
+birthday: 非公開
+age: 30代前半
+nearest_station: 非公開
+skills: |
+  言語、フレームワーク: JavaScript, TypeScript, Python, Ruby, React, Vue.js, Node.js
+  インフラ・ハード: Docker, Kubernetes, AWS (EC2, S3, Lambda), GCP (Cloud Run, Firestore)
+  ネットワーク・監視: Prometheus, Grafana, ElasticSearch, Kibana
+  その他ツール: Git, GitHub Actions, Jenkins, Terraform
+hobbies: |
+  プログラミング（個人開発・OSS活動）
+  スポーツ（ランニング、フットサル）
+  ゲーム（戦略系、パズル）
+  読書（技術書、ビジネス書）
+experience:
+  environments: |
+    Windows 10, 11
+    Linux (Ubuntu 18 ～ 24, CentOS)
+    MacOS
+    Docker, Docker Compose
+  languages: |
+    JavaScript, TypeScript
+    Python, Ruby
+    HTML5, CSS3
+  frameworks: |
+    React, Next.js
+    Vue.js, Nuxt.js
+    Ruby on Rails
+    Express.js
+  infrastructure: |
+    AWS (EC2, RDS, Lambda)
+    GCP (Firestore, Cloud Run)
+    Firebase
+    Docker, Kubernetes
+  tools: |
+    Git (GitHub, GitLab)
+    VS Code
+    Slack, Discord
+    Notion, Confluence

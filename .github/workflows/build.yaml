@@ -1,0 +1,38 @@
+---
+name: Build book
+
+on:
+  push:
+    tags:
+      - 'v*'
+    branches:
+      - 'typst*'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Install typst
+        run: |
+          wget https://github.com/typst/typst/releases/download/$TYPST_VERSION/typst-x86_64-unknown-linux-musl.tar.xz
+          sudo tar xvf typst-x86_64-unknown-linux-musl.tar.xz --directory /usr/local/bin --strip-components 1 typst-x86_64-unknown-linux-musl/typst
+          typst --version
+        env:
+          TYPST_VERSION: v0.12.0
+      - name: Install Noto CJK fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-cjk-extra
+          typst fonts
+      - name: Build book
+        run: |
+          typst compile main.typ
+      - name: Upload PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: book-${{ github.sha }}
+          path: |
+            main.pdf

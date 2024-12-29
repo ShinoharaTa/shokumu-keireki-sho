@@ -1,0 +1,54 @@
+personal_projects:
+  - title: ToDoアプリケーションの開発
+    content: |
+      JavaScriptとReactの習得を目的として、ToDoアプリケーションを開発しました。
+      タスクの追加、削除、編集、フィルタリング機能を備えたシンプルな設計です。
+      Firebaseを使用してタスクをリアルタイムで同期する機能を実装しました。
+      TailwindCSSを使用して、見やすく操作しやすいUIをデザインしました。
+    tech-stack: |
+      JavaScript
+      React
+      Firebase
+      TailwindCSS
+      GitHub
+  - title: 勉強会用のタイマーアプリ
+    content: |
+      勉強会での発表時間を管理するためのタイマーアプリケーションを開発しました。
+      Reactを使用してUIを構築し、ユーザーが簡単にタイマーを設定・開始・停止できるようにしました。
+      設定された時間に応じて通知音を鳴らす機能を搭載しました。
+    tech-stack: |
+      JavaScript
+      React
+      HTML/CSS
+      GitHub
+  - title: 英単語学習アプリ
+    content: |
+      英語学習者向けに、単語を効率的に覚えるためのアプリケーションを開発しました。
+      タスクベースのUIで単語カードをランダムに表示し、意味や発音を確認できる機能を実装しました。
+      ユーザーの進捗を記録し、苦手な単語を優先的に復習できる機能を備えています。
+    tech-stack: |
+      TypeScript
+      React
+      Firebase
+      Bootstrap
+      GitHub
+  - title: 自分専用の家計簿アプリ
+    content: |
+      日常生活での収支管理を効率化するため、シンプルな家計簿アプリを開発しました。
+      月ごとの収支を記録し、カテゴリーごとに費用を分類する機能を実装しました。
+      グラフで支出の傾向を視覚化する機能を備えています。
+    tech-stack: |
+      JavaScript
+      Vue.js
+      Chart.js
+      GitHub
+  - title: 時報Botの作成
+    content: |
+      定時に通知を行う簡易的な時報Botを開発しました。
+      TypeScriptを使用してシンプルなスケジューリング機能を構築し、クラウド環境上で運用しています。
+      毎時、事前に設定したメッセージをログとして出力するようにしました。
+    tech-stack: |
+      TypeScript
+      Node.js
+      Docker
+      GCP

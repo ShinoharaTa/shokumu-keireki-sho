@@ -1,0 +1,113 @@
+- title: オンラインショッピングプラットフォームの開発
+  period:
+    from: 21/04
+    to: 22/03
+    span: 12ヶ月
+  workdetail:
+    kind: EC業界
+    type: |
+      フロントエンド
+      機能設計
+    size: 5名
+  content: |
+    ■開発体制
+    ・PM: 1名
+    ・フロントエンド: 2名
+    ・バックエンド: 2名
+
+    ■工夫/苦労したこと
+    プロジェクトの初期段階で、UI/UXの設計を行い、ユーザビリティ向上を目指しました。
+    APIの設計・最適化を行うことで、商品検索や購入処理のレスポンスを改善しました。
+    フロントエンドの設計において、再利用可能なコンポーネントを構築し、開発効率を向上させました。
+
+    ■身に着けた経験・スキル
+    ・Vue.jsやNuxt.jsを用いたモダンなフロントエンド開発
+    ・レスポンシブデザインとパフォーマンスチューニングの実施
+    ・AWSを用いたデプロイやインフラ構築の基礎知識
+  use-soft: |
+    Git
+    AWS (S3, EC2)
+    Docker
+    Slack
+  lang-othor: |
+    TypeScript
+    Vue.js
+    Nuxt.js
+    HTML
+    CSS
+    Node.js
+
+- title: クラウドベースの在庫管理システム開発
+  period:
+    from: 22/05
+    to: 23/02
+    span: 10ヶ月
+  workdetail:
+    kind: SaaS業界
+    type: |
+      フロントエンド
+      機能設計
+    size: 4名
+  content: |
+    ■開発体制
+    ・PM: 1名
+    ・フロントエンド: 2名
+    ・バックエンド: 1名
+
+    ■工夫/苦労したこと
+    状態管理の最適化を進め、在庫データのリアルタイム同期を実現しました。
+    デザインの一貫性を確保するため、TailwindCSSを活用してコンポーネントを設計しました。
+    Firebaseを活用したバックエンド構築により、スケーラブルなシステムを提供しました。
+
+    ■身に着けた経験・スキル
+    ・ReactとReduxを用いたフロントエンドの設計と開発
+    ・Firebaseを用いたリアルタイムデータ同期の実装
+    ・チームでのデザインとコーディングの一貫性確保
+  use-soft: |
+    Git
+    Firebase
+    Notion
+  lang-othor: |
+    TypeScript
+    React
+    Redux
+    TailwindCSS
+
+- title: オンライン学習プラットフォームの機能拡張
+  period:
+    from: 23/06
+    to: 24/03
+    span: 9ヶ月
+  workdetail:
+    kind: 教育業界
+    type: |
+      バックエンド
+      機能設計
+    size: 6名
+  content: |
+    ■開発体制
+    ・PM: 1名
+    ・フロントエンド: 2名
+    ・バックエンド: 2名
+    ・モバイルアプリ: 1名
+
+    ■工夫/苦労したこと
+    Laravelを用いたAPI設計を行い、スムーズなデータフローを構築しました。
+    動画ストリーミングサービスとの統合において、セキュリティとパフォーマンスを両立させる工夫を行いました。
+    開発初期段階でのモバイル対応設計により、リリース後の修正コストを削減しました。
+
+    ■身に着けた経験・スキル
+    ・Laravelを用いたバックエンド設計と実装
+    ・動画ストリーミングAPIの統合経験
+    ・モバイルファーストデザインへの対応
+  use-soft: |
+    GitHub Actions
+    Slack
+    Docker
+  lang-othor: |
+    PHP
+    Laravel
+    MySQL
+    Redis
+    Vue.js
+    Bootstrap
