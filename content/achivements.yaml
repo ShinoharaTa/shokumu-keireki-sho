@@ -21,10 +21,7 @@
       Reactを使用してUIを構築し、ユーザーが簡単にタイマーを設定・開始・停止できるようにしました。
       設定された時間に応じて通知音を鳴らす機能を搭載しました。
     tech-stack: |
-      JavaScript
-      React
-      HTML/CSS
-      GitHub
+      JavaScript, React, HTML/CSS, GitHub
     urls:
       - title: 参考サイトのタイトル名
         url: https://example.com/self_apps
@@ -38,11 +35,7 @@
       タスクベースのUIで単語カードをランダムに表示し、意味や発音を確認できる機能を実装しました。
       ユーザーの進捗を記録し、苦手な単語を優先的に復習できる機能を備えています。
     tech-stack: |
-      TypeScript
-      React
-      Firebase
-      Bootstrap
-      GitHub
+      TypeScript, React, Firebase, Bootstrap, GitHub
     urls:
       - title: 参考サイトのタイトル名
         url: https://example.com/self_apps
@@ -56,10 +49,7 @@
       月ごとの収支を記録し、カテゴリーごとに費用を分類する機能を実装しました。
       グラフで支出の傾向を視覚化する機能を備えています。
     tech-stack: |
-      JavaScript
-      Vue.js
-      Chart.js
-      GitHub
+      JavaScript, Vue.js, Chart.js, GitHub
     urls:
       - title: 参考サイトのタイトル名
         url: https://example.com/self_apps
@@ -73,10 +63,7 @@
       TypeScriptを使用してシンプルなスケジューリング機能を構築し、クラウド環境上で運用しています。
       毎時、事前に設定したメッセージをログとして出力するようにしました。
     tech-stack: |
-      TypeScript
-      Node.js
-      Docker
-      GCP
+      TypeScript, Node.js, Docker, GCP
     urls:
       - title: 参考サイトのタイトル名
         url: https://example.com/self_apps
