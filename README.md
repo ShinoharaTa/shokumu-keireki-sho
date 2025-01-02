@@ -7,7 +7,6 @@
 ```bash
 typst watch main.typ
 ```
-
 - Linux 環境の場合はPDFビューワー内でホットリロードします
 - Adobe で開いた場合、プロセスがPDFをロックするため更新できないことがあります
 - Google Chromeでプレビューするとリロードで表示を更新することが可能です。

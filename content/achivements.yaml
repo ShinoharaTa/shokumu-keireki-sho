@@ -1,18 +1,22 @@
-personal_projects:
+- key_name: 個人開発
+  items:
   - title: ToDoアプリケーションの開発
-    content: |
+    description: |
       JavaScriptとReactの習得を目的として、ToDoアプリケーションを開発しました。
       タスクの追加、削除、編集、フィルタリング機能を備えたシンプルな設計です。
       Firebaseを使用してタスクをリアルタイムで同期する機能を実装しました。
       TailwindCSSを使用して、見やすく操作しやすいUIをデザインしました。
     tech-stack: |
-      JavaScript
-      React
-      Firebase
-      TailwindCSS
-      GitHub
+      JavaScript, React, Firebase, TailwindCSS, GitHub
+    urls:
+      - title: 参考サイトのタイトル名
+        url: https://example.com/self_apps
+      - title: 参考サイトのタイトル名
+        url: https://example.com/self_apps
+      - title: 参考サイトのタイトル名
+        url: https://example.com/self_apps
   - title: 勉強会用のタイマーアプリ
-    content: |
+    description: |
       勉強会での発表時間を管理するためのタイマーアプリケーションを開発しました。
       Reactを使用してUIを構築し、ユーザーが簡単にタイマーを設定・開始・停止できるようにしました。
       設定された時間に応じて通知音を鳴らす機能を搭載しました。
@@ -21,8 +25,15 @@ personal_projects:
       React
       HTML/CSS
       GitHub
+    urls:
+      - title: 参考サイトのタイトル名
+        url: https://example.com/self_apps
+      - title: 参考サイトのタイトル名
+        url: https://example.com/self_apps
+      - title: 参考サイトのタイトル名
+        url: https://example.com/self_apps
   - title: 英単語学習アプリ
-    content: |
+    description: |
       英語学習者向けに、単語を効率的に覚えるためのアプリケーションを開発しました。
       タスクベースのUIで単語カードをランダムに表示し、意味や発音を確認できる機能を実装しました。
       ユーザーの進捗を記録し、苦手な単語を優先的に復習できる機能を備えています。
@@ -32,8 +43,15 @@ personal_projects:
       Firebase
       Bootstrap
       GitHub
+    urls:
+      - title: 参考サイトのタイトル名
+        url: https://example.com/self_apps
+      - title: 参考サイトのタイトル名
+        url: https://example.com/self_apps
+      - title: 参考サイトのタイトル名
+        url: https://example.com/self_apps
   - title: 自分専用の家計簿アプリ
-    content: |
+    description: |
       日常生活での収支管理を効率化するため、シンプルな家計簿アプリを開発しました。
       月ごとの収支を記録し、カテゴリーごとに費用を分類する機能を実装しました。
       グラフで支出の傾向を視覚化する機能を備えています。
@@ -42,8 +60,15 @@ personal_projects:
       Vue.js
       Chart.js
       GitHub
+    urls:
+      - title: 参考サイトのタイトル名
+        url: https://example.com/self_apps
+      - title: 参考サイトのタイトル名
+        url: https://example.com/self_apps
+      - title: 参考サイトのタイトル名
+        url: https://example.com/self_apps
   - title: 時報Botの作成
-    content: |
+    description: |
       定時に通知を行う簡易的な時報Botを開発しました。
       TypeScriptを使用してシンプルなスケジューリング機能を構築し、クラウド環境上で運用しています。
       毎時、事前に設定したメッセージをログとして出力するようにしました。
@@ -52,3 +77,26 @@ personal_projects:
       Node.js
       Docker
       GCP
+    urls:
+      - title: 参考サイトのタイトル名
+        url: https://example.com/self_apps
+      - title: 参考サイトのタイトル名
+        url: https://example.com/self_apps
+      - title: 参考サイトのタイトル名
+        url: https://example.com/self_apps
+- key_name: 登壇
+  items:
+  - title: 忘年LT会
+    description: |
+      先述のToDoアプリケーションに関してLTする機会をいただき、登壇しました。
+    urls:
+      - title: スライドの共有URL
+        url: https://example.com/self_apps
+- key_name: 書籍など
+  items:
+  - title: 自分専用の家計簿アプリを用いて生活を見直す
+    description: |
+      先述の家計簿アプリを使って自身の入出金管理を見直すことを書籍にまとめました
+    urls:
+      - title: 参考サイトのタイトル名
+        url: https://example.com/self_apps
